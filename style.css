@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(65, 62, 62);
+}
+
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+    border: 20px gray solid;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+}
+
+#wrapper div{
+    margin: 30px;
+}
+
+#first{
+    padding-bottom: 5px;
+    border-bottom: 1px rgb(194, 191, 191) solid; 
+}
+
+#wrapper div > :first-child{
+    color: rgb(50, 231, 216);
+}
+
+.first-paragraph{
+    border-left: 4px rgb(194, 191, 191) solid;
+    padding-left: 10px;
+}
